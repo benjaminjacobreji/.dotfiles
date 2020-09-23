@@ -11,4 +11,7 @@ find ./scripts/ -type f -iname "*.sh" -exec chmod +x {} \;
 chsh -s $(which zsh)
 
 # Fun ending
-figlet "Finished !" | lolcat -a -d 2
+# figlet "Finished !" | lolcat -a -d 2
+
+# Reboot to complete setup
+sudo reboot
