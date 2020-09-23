@@ -1,0 +1,8 @@
+[user]
+	name = Benjamin Jacob Reji
+	email = benjaminjacobreji@gmail.com
+	signingkey = 12A4FCF6B59AD052
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
