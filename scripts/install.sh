@@ -45,6 +45,9 @@ apt-install software-properties-common
 apt-install ca-certificates
 apt-install gnupg-agent
 apt-install zsh
+apt-install build-essential
+apt-install dkms
+apt-install 'linux-headers-$(uname -r)'
 
 # Developer Stuff
 apt-install gcc
