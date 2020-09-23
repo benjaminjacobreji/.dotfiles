@@ -2,6 +2,9 @@
 
 find ./scripts/ -type f -iname "*.sh" -exec chmod +x {} \;
 
+# lolcat package for added visual flair more so the output can be segmentalized for easy visualization
+sudo apt install lolcat
+
 ./scripts/install-fonts.sh
 ./scripts/install.sh
 ./scripts/link-dotfiles.sh
