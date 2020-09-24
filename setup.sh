@@ -3,7 +3,7 @@
 find ./scripts/ -type f -iname "*.sh" -exec chmod +x {} \;
 
 # lolcat package for added visual flair more so the output can be segmentalized for easy visualization
-sudo apt install lolcat
+sudo apt install -y lolcat
 
 ./scripts/install-fonts.sh
 ./scripts/install.sh
